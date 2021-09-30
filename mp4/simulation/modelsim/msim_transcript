@@ -1,0 +1,1196 @@
+# do mp4_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying /software/quartus-std-18.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/divider.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:17 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/divider.sv 
+# -- Compiling module divider_unsigned
+# -- Compiling module divider
+# 
+# Top level modules:
+# 	divider
+# End time: 20:08:17 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/FA.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:17 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 20:08:18 on May 03,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/HA.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:18 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 20:08:18 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/wallace_mul.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:18 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/wallace_mul.sv 
+# -- Compiling module wallace_mul
+# 
+# Top level modules:
+# 	wallace_mul
+# End time: 20:08:18 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/lru_arr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:19 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/lru_arr.sv 
+# -- Compiling module lru_arr
+# 
+# Top level modules:
+# 	lru_arr
+# End time: 20:08:19 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cacheline_adaptor.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:19 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cacheline_adaptor.sv 
+# -- Compiling module cacheline_adaptor
+# 
+# Top level modules:
+# 	cacheline_adaptor
+# End time: 20:08:19 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache/line_adapter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:19 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache/line_adapter.sv 
+# -- Compiling module line_adapter
+# 
+# Top level modules:
+# 	line_adapter
+# End time: 20:08:19 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache/data_array.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:20 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache/data_array.sv 
+# -- Compiling module data_array
+# 
+# Top level modules:
+# 	data_array
+# End time: 20:08:20 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache/cache_datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:20 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache/cache_datapath.sv 
+# -- Compiling module cache_datapath
+# 
+# Top level modules:
+# 	cache_datapath
+# End time: 20:08:20 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache/cache_control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:20 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache/cache_control.sv 
+# -- Compiling module cache_control
+# 
+# Top level modules:
+# 	cache_control
+# End time: 20:08:21 on May 03,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache/array.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:21 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache/array.sv 
+# -- Compiling module array
+# 
+# Top level modules:
+# 	array
+# End time: 20:08:21 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/data_array_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:21 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/data_array_2.sv 
+# -- Compiling module data_array_2
+# 
+# Top level modules:
+# 	data_array_2
+# End time: 20:08:21 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/cache_comparator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:21 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/cache_comparator.sv 
+# -- Compiling module tag_comparator
+# 
+# Top level modules:
+# 	tag_comparator
+# End time: 20:08:22 on May 03,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/array_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:22 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/array_2.sv 
+# -- Compiling module array_2
+# 
+# Top level modules:
+# 	array_2
+# End time: 20:08:22 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/arbiter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:22 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 20:08:22 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/addr_decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:22 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/addr_decoder.sv 
+# -- Compiling module addr_decoder
+# -- Compiling module l2_decoder
+# 
+# Top level modules:
+# 	addr_decoder
+# 	l2_decoder
+# End time: 20:08:22 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/pc.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:23 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/pc.sv 
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# End time: 20:08:23 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/ID {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/ID/regfile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:23 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/ID" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/ID/regfile.sv 
+# -- Compiling module id_regfile
+# 
+# Top level modules:
+# 	id_regfile
+# End time: 20:08:23 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/rv32i_mux_types.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:24 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/rv32i_mux_types.sv 
+# -- Compiling package pcmux
+# -- Compiling package marmux
+# -- Compiling package cmpmux
+# -- Compiling package alumux
+# -- Compiling package mulmux
+# -- Compiling package regfilemux
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:08:24 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/register.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:24 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/register.sv 
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# End time: 20:08:24 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache/cache.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:24 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/given_cache/cache.sv 
+# -- Compiling module cache
+# 
+# Top level modules:
+# 	cache
+# End time: 20:08:24 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/rv32i_types.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:25 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/rv32i_types.sv 
+# -- Compiling package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:08:25 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/l2_datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:25 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/l2_datapath.sv 
+# -- Compiling package l2_datapath_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module l2_datapath
+# 
+# Top level modules:
+# 	l2_datapath
+# End time: 20:08:25 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/l2_control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:26 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/l2_control.sv 
+# -- Compiling package l2_control_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module l2_control
+# 
+# Top level modules:
+# 	l2_control
+# End time: 20:08:26 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:26 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/decoder.sv 
+# -- Compiling package decoder_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 20:08:26 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/comparator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:27 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/comparator.sv 
+# -- Compiling package comparator_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module comparator
+# 
+# Top level modules:
+# 	comparator
+# End time: 20:08:27 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:27 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/alu.sv 
+# -- Compiling package alu_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 20:08:27 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/rv32i_regfiles.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:27 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/rv32i_regfiles.sv 
+# -- Compiling package rv32i_regfiles_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling package regfile
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:08:28 on May 03,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/rv32i_control_words.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:28 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/rv32i_control_words.sv 
+# -- Compiling package rv32i_control_words_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling package control
+# -- Importing package mulmux
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:08:28 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/l2_cache.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:28 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cache/l2_cache.sv 
+# -- Compiling package l2_cache_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module l2_cache
+# 
+# Top level modules:
+# 	l2_cache
+# End time: 20:08:29 on May 03,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/local_bp.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:29 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/local_bp.sv 
+# -- Compiling package local_bp_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module local_bp
+# 
+# Top level modules:
+# 	local_bp
+# End time: 20:08:29 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/global_bp.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:30 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/global_bp.sv 
+# -- Compiling package global_bp_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module global_bp
+# 
+# Top level modules:
+# 	global_bp
+# End time: 20:08:30 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/forwarder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:30 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/forwarder.sv 
+# -- Compiling package forwarder_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package regfile
+# -- Compiling module forwarder
+# 
+# Top level modules:
+# 	forwarder
+# End time: 20:08:30 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/WB {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/WB/wb_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:31 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/WB" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/WB/wb_top.sv 
+# -- Compiling package wb_top_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module wb_top
+# 
+# Top level modules:
+# 	wb_top
+# End time: 20:08:31 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/WB {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/WB/wb_datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:31 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/WB" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/WB/wb_datapath.sv 
+# -- Compiling package wb_datapath_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module wb_datapath
+# 
+# Top level modules:
+# 	wb_datapath
+# End time: 20:08:31 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/WB {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/WB/wb_control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:32 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/WB" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/WB/wb_control.sv 
+# -- Compiling package wb_control_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module wb_control
+# 
+# Top level modules:
+# 	wb_control
+# End time: 20:08:32 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/MEM {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/MEM/mem_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:32 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/MEM" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/MEM/mem_top.sv 
+# -- Compiling package mem_top_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module mem_top
+# 
+# Top level modules:
+# 	mem_top
+# End time: 20:08:32 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/MEM {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/MEM/mem_datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:33 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/MEM" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/MEM/mem_datapath.sv 
+# -- Compiling package mem_datapath_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module mem_datapath
+# 
+# Top level modules:
+# 	mem_datapath
+# End time: 20:08:33 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/MEM {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/MEM/mem_control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:34 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/MEM" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/MEM/mem_control.sv 
+# -- Compiling package mem_control_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module mem_control
+# 
+# Top level modules:
+# 	mem_control
+# End time: 20:08:34 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/if_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:34 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/if_top.sv 
+# -- Compiling package if_top_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module if_top
+# 
+# Top level modules:
+# 	if_top
+# End time: 20:08:34 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/if_datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:35 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/if_datapath.sv 
+# -- Compiling package if_datapath_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module if_datapath
+# 
+# Top level modules:
+# 	if_datapath
+# End time: 20:08:35 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/if_control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:35 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/if_control.sv 
+# -- Compiling package if_control_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module if_control
+# 
+# Top level modules:
+# 	if_control
+# End time: 20:08:35 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/ID {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/ID/id_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:36 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/ID" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/ID/id_top.sv 
+# -- Compiling package id_top_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module id_top
+# 
+# Top level modules:
+# 	id_top
+# End time: 20:08:36 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/ID {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/ID/id_datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:37 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/ID" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/ID/id_datapath.sv 
+# -- Compiling package id_datapath_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module id_datapath
+# 
+# Top level modules:
+# 	id_datapath
+# End time: 20:08:37 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/ID {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/ID/id_control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:37 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/ID" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/ID/id_control.sv 
+# -- Compiling package id_control_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module id_control
+# 
+# Top level modules:
+# 	id_control
+# End time: 20:08:37 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/exe_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:38 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/exe_top.sv 
+# -- Compiling package exe_top_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module exe_top
+# 
+# Top level modules:
+# 	exe_top
+# End time: 20:08:38 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/exe_control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:38 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/exe_control.sv 
+# -- Compiling package exe_control_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module exe_control
+# 
+# Top level modules:
+# 	exe_control
+# End time: 20:08:38 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/regfiles_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:39 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/regfiles_top.sv 
+# -- Compiling package regfiles_top_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module regfiles_top
+# 
+# Top level modules:
+# 	regfiles_top
+# End time: 20:08:39 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/mem_wb_regfile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:39 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/mem_wb_regfile.sv 
+# -- Compiling package mem_wb_regfile_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module mem_wb_reg
+# 
+# Top level modules:
+# 	mem_wb_reg
+# End time: 20:08:40 on May 03,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/if_id_regfile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:40 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/if_id_regfile.sv 
+# -- Compiling package if_id_regfile_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module if_id_reg
+# 
+# Top level modules:
+# 	if_id_reg
+# End time: 20:08:40 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/id_exe_regfile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:41 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/id_exe_regfile.sv 
+# -- Compiling package id_exe_regfile_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module id_exe_reg
+# 
+# Top level modules:
+# 	id_exe_reg
+# End time: 20:08:41 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/exe_mem_regfile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:41 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/exe_mem_regfile.sv 
+# -- Compiling package exe_mem_regfile_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module exe_mem_reg
+# 
+# Top level modules:
+# 	exe_mem_reg
+# End time: 20:08:42 on May 03,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/branch_predictor_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:42 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/branch_predictor_top.sv 
+# -- Compiling package branch_predictor_top_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module branch_predictor_top
+# 
+# Top level modules:
+# 	branch_predictor_top
+# End time: 20:08:42 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/exe_datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:43 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/EXE/exe_datapath.sv 
+# -- Compiling package exe_datapath_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module exe_datapath
+# 
+# Top level modules:
+# 	exe_datapath
+# End time: 20:08:43 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/cpu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:43 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/cpu.sv 
+# -- Compiling package cpu_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Importing package control
+# -- Importing package mulmux
+# -- Importing package regfile
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 20:08:43 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl {/home/andrewg3/ECE411/Team-ATM/mp4/hdl/mp4.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:44 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hdl" /home/andrewg3/ECE411/Team-ATM/mp4/hdl/mp4.sv 
+# -- Compiling package mp4_sv_unit
+# -- Importing package rv32i_types
+# -- Importing package pcmux
+# -- Importing package marmux
+# -- Importing package cmpmux
+# -- Importing package alumux
+# -- Importing package regfilemux
+# -- Compiling module mp4
+# 
+# Top level modules:
+# 	mp4
+# End time: 20:08:44 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hvl {/home/andrewg3/ECE411/Team-ATM/mp4/hvl/top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:44 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hvl" /home/andrewg3/ECE411/Team-ATM/mp4/hvl/top.sv 
+# -- Compiling module mp4_tb
+# 
+# Top level modules:
+# 	mp4_tb
+# End time: 20:08:44 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hvl {/home/andrewg3/ECE411/Team-ATM/mp4/hvl/magic_dual_port.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:45 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hvl" /home/andrewg3/ECE411/Team-ATM/mp4/hvl/magic_dual_port.sv 
+# -- Compiling module magic_memory_dp
+# 
+# Top level modules:
+# 	magic_memory_dp
+# End time: 20:08:45 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hvl {/home/andrewg3/ECE411/Team-ATM/mp4/hvl/param_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:45 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hvl" /home/andrewg3/ECE411/Team-ATM/mp4/hvl/param_memory.sv 
+# -- Compiling module ParamMemory
+# ** Warning: /home/andrewg3/ECE411/Team-ATM/mp4/hvl/param_memory.sv(25): (vlog-2244) Variable 'iteration' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# 
+# Top level modules:
+# 	ParamMemory
+# End time: 20:08:45 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hvl {/home/andrewg3/ECE411/Team-ATM/mp4/hvl/rvfi_itf.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:45 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hvl" /home/andrewg3/ECE411/Team-ATM/mp4/hvl/rvfi_itf.sv 
+# -- Compiling interface rvfi_itf
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:08:45 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hvl {/home/andrewg3/ECE411/Team-ATM/mp4/hvl/rvfimon.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:46 on May 03,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hvl" /home/andrewg3/ECE411/Team-ATM/mp4/hvl/rvfimon.v 
+# -- Compiling module riscv_formal_monitor_rv32imc
+# -- Compiling module riscv_formal_monitor_rv32imc_rob
+# -- Compiling module riscv_formal_monitor_rv32imc_isa_spec
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_add
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_addi
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_and
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_andi
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_auipc
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_beq
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_bge
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_bgeu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_blt
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_bltu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_bne
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_add
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_addi
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_addi16sp
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_addi4spn
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_and
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_andi
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_beqz
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_bnez
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_j
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_jal
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_jalr
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_jr
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_li
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_lui
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_lw
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_lwsp
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_mv
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_or
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_slli
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_srai
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_srli
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_sub
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_sw
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_swsp
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_c_xor
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_div
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_divu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_jal
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_jalr
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_lb
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_lbu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_lh
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_lhu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_lui
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_lw
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_mul
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_mulh
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_mulhsu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_mulhu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_or
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_ori
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_rem
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_remu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_sb
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_sh
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_sll
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_slli
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_slt
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_slti
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_sltiu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_sltu
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_sra
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_srai
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_srl
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_srli
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_sub
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_sw
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_xor
+# -- Compiling module riscv_formal_monitor_rv32imc_insn_xori
+# 
+# Top level modules:
+# 	riscv_formal_monitor_rv32imc
+# End time: 20:08:46 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hvl {/home/andrewg3/ECE411/Team-ATM/mp4/hvl/shadow_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:48 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hvl" /home/andrewg3/ECE411/Team-ATM/mp4/hvl/shadow_memory.sv 
+# -- Compiling module shadow_memory
+# 
+# Top level modules:
+# 	shadow_memory
+# End time: 20:08:48 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hvl {/home/andrewg3/ECE411/Team-ATM/mp4/hvl/source_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:49 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hvl" /home/andrewg3/ECE411/Team-ATM/mp4/hvl/source_tb.sv 
+# -- Compiling interface tb_itf
+# -- Compiling module source_tb
+# 
+# Top level modules:
+# 	source_tb
+# End time: 20:08:49 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hvl {/home/andrewg3/ECE411/Team-ATM/mp4/hvl/tb_itf.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:49 on May 03,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/andrewg3/ECE411/Team-ATM/mp4/hvl" /home/andrewg3/ECE411/Team-ATM/mp4/hvl/tb_itf.sv 
+# -- Compiling interface tb_itf
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:08:49 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L arriaii_hssi_ver -L arriaii_pcie_hip_ver -L arriaii_ver -L rtl_work -L work -voptargs="+acc"  mp4_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L arriaii_hssi_ver -L arriaii_pcie_hip_ver -L arriaii_ver -L rtl_work -L work -voptargs=""+acc"" mp4_tb 
+# Start time: 20:08:49 on May 03,2021
+# Loading sv_std.std
+# Loading work.mp4_tb
+# Loading work.tb_itf
+# Loading work.rvfi_itf
+# Loading work.source_tb
+# Loading work.regfilemux
+# Loading work.alumux
+# Loading work.cmpmux
+# Loading work.marmux
+# Loading work.pcmux
+# Loading work.rv32i_types
+# Loading work.mp4_sv_unit
+# Loading work.mp4
+# Loading work.regfile
+# Loading work.mulmux
+# Loading work.control
+# Loading work.cpu_sv_unit
+# Loading work.cpu
+# Loading work.if_top_sv_unit
+# Loading work.if_top
+# Loading work.branch_predictor_top_sv_unit
+# Loading work.branch_predictor_top
+# Loading work.register
+# Loading work.local_bp_sv_unit
+# Loading work.local_bp
+# Loading work.global_bp_sv_unit
+# Loading work.global_bp
+# Loading work.if_datapath_sv_unit
+# Loading work.if_datapath
+# Loading work.pc
+# Loading work.decoder_sv_unit
+# Loading work.decoder
+# Loading work.if_control_sv_unit
+# Loading work.if_control
+# Loading work.id_top_sv_unit
+# Loading work.id_top
+# Loading work.id_datapath_sv_unit
+# Loading work.id_datapath
+# Loading work.id_regfile
+# Loading work.id_control_sv_unit
+# Loading work.id_control
+# Loading work.exe_top_sv_unit
+# Loading work.exe_top
+# Loading work.exe_datapath_sv_unit
+# Loading work.exe_datapath
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.comparator_sv_unit
+# Loading work.comparator
+# Loading work.forwarder_sv_unit
+# Loading work.forwarder
+# Loading work.wallace_mul
+# Loading work.HA
+# Loading work.FA
+# Loading work.divider
+# Loading work.divider_unsigned
+# Loading work.exe_control_sv_unit
+# Loading work.exe_control
+# Loading work.mem_top_sv_unit
+# Loading work.mem_top
+# Loading work.mem_datapath_sv_unit
+# Loading work.mem_datapath
+# Loading work.mem_control_sv_unit
+# Loading work.mem_control
+# Loading work.wb_top_sv_unit
+# Loading work.wb_top
+# Loading work.wb_datapath_sv_unit
+# Loading work.wb_datapath
+# Loading work.wb_control_sv_unit
+# Loading work.wb_control
+# Loading work.regfiles_top_sv_unit
+# Loading work.regfiles_top
+# Loading work.if_id_regfile_sv_unit
+# Loading work.if_id_reg
+# Loading work.id_exe_regfile_sv_unit
+# Loading work.id_exe_reg
+# Loading work.exe_mem_regfile_sv_unit
+# Loading work.exe_mem_reg
+# Loading work.mem_wb_regfile_sv_unit
+# Loading work.mem_wb_reg
+# Loading work.cache
+# Loading work.cache_control
+# Loading work.cache_datapath
+# Loading work.data_array
+# Loading work.array
+# Loading work.line_adapter
+# Loading work.arbiter
+# Loading work.l2_cache_sv_unit
+# Loading work.l2_cache
+# Loading work.l2_control_sv_unit
+# Loading work.l2_control
+# Loading work.l2_datapath_sv_unit
+# Loading work.l2_datapath
+# Loading work.addr_decoder
+# Loading work.lru_arr
+# Loading work.cacheline_adaptor
+# Loading work.data_array_2
+# Loading work.tag_comparator
+# Loading work.array_2
+# Loading work.ParamMemory
+# Loading work.shadow_memory
+# ** Warning: (vsim-3838) /home/andrewg3/ECE411/Team-ATM/mp4/hvl/top.sv(98): Variable '/mp4_tb/itf/data_rdata' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See /home/andrewg3/ECE411/Team-ATM/mp4/hvl/tb_itf.sv(77).
+#    Time: 0 ps  Iteration: 0  Instance: /mp4_tb File: /home/andrewg3/ECE411/Team-ATM/mp4/hvl/top.sv
+# ** Warning: (vsim-3838) /home/andrewg3/ECE411/Team-ATM/mp4/hvl/top.sv(97): Variable '/mp4_tb/itf/data_resp' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See /home/andrewg3/ECE411/Team-ATM/mp4/hvl/tb_itf.sv(77).
+#    Time: 0 ps  Iteration: 0  Instance: /mp4_tb File: /home/andrewg3/ECE411/Team-ATM/mp4/hvl/top.sv
+# ** Warning: (vsim-3838) /home/andrewg3/ECE411/Team-ATM/mp4/hvl/top.sv(90): Variable '/mp4_tb/itf/inst_rdata' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See /home/andrewg3/ECE411/Team-ATM/mp4/hvl/tb_itf.sv(77).
+#    Time: 0 ps  Iteration: 0  Instance: /mp4_tb File: /home/andrewg3/ECE411/Team-ATM/mp4/hvl/top.sv
+# ** Warning: (vsim-3838) /home/andrewg3/ECE411/Team-ATM/mp4/hvl/top.sv(89): Variable '/mp4_tb/itf/inst_resp' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See /home/andrewg3/ECE411/Team-ATM/mp4/hvl/tb_itf.sv(77).
+#    Time: 0 ps  Iteration: 0  Instance: /mp4_tb File: /home/andrewg3/ECE411/Team-ATM/mp4/hvl/top.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Compilation Successful
+# ** Warning: (vsim-8315) /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/global_bp.sv(61): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /mp4_tb/dut/CPU/IF/bp_top/globalbp3
+# ** Warning: (vsim-8315) /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/global_bp.sv(61): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /mp4_tb/dut/CPU/IF/bp_top/globalbp2
+# ** Warning: (vsim-8315) /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/global_bp.sv(61): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /mp4_tb/dut/CPU/IF/bp_top/globalbp
+# ** Warning: (vsim-8315) /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/local_bp.sv(62): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /mp4_tb/dut/CPU/IF/bp_top/localbp
+# ** Warning: (vsim-8315) /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/local_bp.sv(62): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /mp4_tb/dut/CPU/IF/bp_top/localbp
+# ** Warning: (vsim-8315) /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/global_bp.sv(61): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /mp4_tb/dut/CPU/IF/bp_top/globalbp2
+# ** Warning: (vsim-8315) /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/global_bp.sv(61): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /mp4_tb/dut/CPU/IF/bp_top/globalbp3
+# ** Warning: (vsim-8315) /home/andrewg3/ECE411/Team-ATM/mp4/hdl/cpu/IF/global_bp.sv(61): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /mp4_tb/dut/CPU/IF/bp_top/globalbp
+# Reset Memory
+# End time: 20:09:13 on May 03,2021, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 12

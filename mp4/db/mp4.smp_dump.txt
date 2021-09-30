@@ -1,0 +1,29 @@
+
+State Machine - |mp4|l2_cache:l2_cache|l2_control:control|state
+Name state.miss_two state.read_hit state.miss_one state.PTO state.write_hit 
+state.PTO 0 0 0 0 0 
+state.miss_one 0 0 1 1 0 
+state.read_hit 0 1 0 1 0 
+state.miss_two 1 0 0 1 0 
+state.write_hit 0 0 0 1 1 
+
+State Machine - |mp4|arbiter:arbiter|state
+Name state.idle state.dcache_ready state.icache_ready 
+state.idle 0 0 0 
+state.icache_ready 1 0 1 
+state.dcache_ready 1 1 0 
+
+State Machine - |mp4|cache:dcache|cache_control:control|state
+Name state.read_mem 
+state.check_hit 0 
+state.read_mem 1 
+
+State Machine - |mp4|cache:icache|cache_control:control|state
+Name state.read_mem 
+state.check_hit 0 
+state.read_mem 1 
+
+State Machine - |mp4|cpu:CPU|exe_top:EXE|exe_datapath:datapath|divider:DIVIDER|divider_unsigned:d|state
+Name state.shift_sub 
+state.idle 0 
+state.shift_sub 1 

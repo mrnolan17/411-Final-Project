@@ -1,0 +1,106 @@
+.align 4
+.section .text
+.globl _start
+
+_start:
+    andi x2, x2, 0
+    addi x2, x2, 2
+    sw x2, TWO, x15
+
+    andi x2, x2, 0
+    addi x2, x2, 2
+    sw x2, ONE, x15
+
+    andi x2, x2, 0
+    addi x2, x2, 2
+    sw x2, TWO, x15
+
+    andi x2, x2, 0
+    addi x2, x2, 2
+    sw x2, TWO, x15
+
+    andi x2, x2, 0
+    addi x2, x2, 2
+    sw x2, TWO, x15
+
+    andi x2, x2, 0
+    addi x2, x2, 2
+    sw x2, TWO, x15
+
+    andi x2, x2, 0
+    addi x2, x2, 2
+    sw x2, TWO, x15
+
+    andi x2, x2, 0
+    addi x2, x2, 2
+    sw x2, TWO, x15
+
+    andi x2, x2, 0
+    addi x2, x2, 2
+    sw x2, TWO, x15
+
+    andi x2, x2, 0
+    addi x2, x2, 2
+    sw x2, TWO, x15
+
+    andi x2, x2, 0
+    addi x2, x2, 2
+    sw x2, TWO, x15
+
+    andi x2, x2, 0
+    addi x2, x2, 2
+    sw x2, TWO, x15
+
+    andi x2, x2, 0
+    addi x2, x2, 2
+    sw x2, TWO, x15
+
+    andi x2, x2, 0
+    addi x2, x2, 2
+    sw x2, TWO, x15
+
+    andi x2, x2, 0
+    addi x2, x2, 2
+    sw x2, TWO, x15
+
+END:
+	jal x7,  END
+
+	.balign 256
+TWO:   .word 0x00000000
+ONE :  .word 0x0000700F
+BEAD :  .word 0xBEADBEAD
+FUN :   .word 0x00000000
+DEEB:   .word 0xDEEBDEEB
+LEAF:   .word 0x00001EAF
+D22D:   .word 0xD22DD22D
+LIFE:   .word 0x00000042
+FOED:   .word 0xF0EDF0ED
+BOMB:   .word 0xB006B006
+GOOF:   .word 0x0000600F
+dunk:   .word 0xdddddddd
+RESULT: .word 0x00000000
+GOOD:   .word 0x0000600D
+COOKIE: .word 0xD0CAD0CA
+FOOB:   .word 0xF00BF00B
+aacus:  .word 0xFFFFFFFF
+
+joiner: .word 0x00001010
+calcx:  .word 0x00001234
+fivespd:.word 0x89218921
+duh:    .word 0x99999999
+chew:   .word 0xcccccccc
+crumb:  .word 0x00006969
+GAME:   .word 0xba11ba11
+
+SPOT1:  .word 0x88888888
+SPOT2:  .word 0xABCDABCD
+SPOT3:  .word 0x00000110
+SPOT4:  .word 0xABBAABBA
+
+TEST:   .word 0x00000000
+DONE:   .word 0x00000000
+MUDPIE: .word 0x00000000
+BLUNDER:    .word 0x00000000
+
+.balign 256
